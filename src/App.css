@@ -1,5 +1,20 @@
+/* font-family: 'Abel', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
 .App {
+  /* font-family: 'Abel', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+  /* background-image: linear-gradient(-90deg, #A94C4C, #501B6A);
+   */
+  background-image: url('/bg-vacation.jpeg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -9,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,15 +34,122 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
+
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 100;
   }
+}
+
+
+.sign-up-container{
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.742);
+  width: 800px;
+  height: 500px;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 5px 5px   5px rgba(0, 0, 0, 0.673);
+}
+.sign-up-box{
+  /* border: red solid 1px; */
+  width: 400px;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.s-title{
+  font-family: 'Oswald', sans-serif;
+  /* height: 34px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+
+.s-greeting{
+  height: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+.input-box{
+  display: flex;
+  width: 100%;
+  min-height: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.input{
+  width: 100%;
+  
+}
+input[type=email], input[name=signuppassword]{
+  background-color: rgba(3, 0, 41, 0.714);
+  color: rgb(255, 255, 255);
+  margin: 2px;
+  padding: 5px;
+  border: 1px solid rgba(104, 104, 104, 0.434);
+  border-radius: 5px;
+  height: 2em;
+  width: 80%;
+  font-size: 20px;
+}
+
+input[type=email]:focus, input[name=signuppassword]:focus{
+  outline: 4px solid rgba(128, 0, 128, 0.475);
+  
+  margin: 2px;
+  padding: 5px;
+  /* box-shadow: rgb(79, 19, 109); */
+  height: 2em;
+  width: 80%;
+}
+.input-message{
+  font-family: 'Abel', sans-serif;
+}
+.agree-text{
+  font-size: 10px;
+}
+
+input[type=checkbox]{
+ 
+}
+
+.sign-up-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 3em;
+  background-color: rgb(242, 0, 36);
+  border-radius: 2px;
+  font-size: 14px;
+  color: white;
+  
+}
+
+.sign-up-btn:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 3em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  font-size: 14px;
+  color: black;
+  
 }
