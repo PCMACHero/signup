@@ -9,7 +9,7 @@ font-family: 'Oswald', sans-serif; */
   text-align: center;
   /* background-image: linear-gradient(-90deg, #A94C4C, #501B6A);
    */
-  background-image: url('/bg-vacation.jpeg');
+  background-image: url('https://github.com/PCMACHero/signup/blob/master/public/bg-vacation.jpeg?raw=true');
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -96,7 +96,7 @@ font-family: 'Oswald', sans-serif; */
   width: 100%;
   
 }
-input[type=email], input[name=signuppassword]{
+.input-signup{
   background-color: rgba(3, 0, 41, 0.714);
   color: rgb(255, 255, 255);
   margin: 2px;
@@ -108,7 +108,7 @@ input[type=email], input[name=signuppassword]{
   font-size: 20px;
 }
 
-input[type=email]:focus, input[name=signuppassword]:focus{
+.input-signup:focus{
   outline: 4px solid rgba(128, 0, 128, 0.475);
   
   margin: 2px;

@@ -150,7 +150,7 @@ export default class SignUp extends Component{
                         >
                 <div className="input-message">{this.state.eInputM}</div>
     
-                    <div className="input"><input key="inputemail" 
+                    <div className="input"><input className="input-signup" key="inputemail" 
                         maxLength="35"
                         autoComplete="off"
                         type="email" name="signupemail" id="sign-up-email" 
@@ -161,7 +161,7 @@ export default class SignUp extends Component{
                         }} value={this.state.signupemail}/></div>
                         <div className="input-message">{this.state.pInputM}</div>
     
-                    <div className="input"><input type="password" 
+                    <div className="input"><input className="input-signup" type="password" 
                     name="signuppassword" 
                     maxLength="20"
                     onChange={(e)=>{this.handleChange(e)}} 
