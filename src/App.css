@@ -9,7 +9,7 @@ font-family: 'Oswald', sans-serif; */
   text-align: center;
   /* background-image: linear-gradient(-90deg, #A94C4C, #501B6A);
    */
-  background-image: url('https://github.com/PCMACHero/signup/blob/master/public/bg-vacation.jpeg?raw=true');
+  background-image: url("./images/bg-vacation.jpeg");
   background-size: cover;
   height: 100vh;
   display: flex;
